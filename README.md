@@ -7,13 +7,10 @@ Welcome to the **Git & GitHub Basics Cheat Sheet!** This repository contains a c
 
 # Why Learn Git Before GitHub?
 
-![Project Logo](Images/Git%20before%20GitHub.png)
 
 **Git is the tool** that helps you track changes in your code and manage different versions. **GitHub is a website** that lets you share your Git projects with others. **By learning Git first, you understand how to control your code locally.** This makes it easier to use GitHub’s features for collaboration and sharing.
 
 # What is Git?
-
-![Project Logo](Images/Git.png)
 
 Git is a version control system that helps you manage and keep track of changes to your code. Here’s a breakdown:
 
@@ -26,8 +23,6 @@ Git is a version control system that helps you manage and keep track of changes 
 + **Branches :** You can create "branches" in your project to work on different features or fixes simultaneously. This way, you don't mess up your main codebase while experimenting with new ideas.
 
 # What is GitHub?
-
-![Project Logo](Images/GitHub.png)
 
 GitHub is an online platform for storing and sharing code. It allows you to work on projects with others by tracking changes and managing contributions. Think of it as a central place where developers can collaborate and maintain their code together.
 
