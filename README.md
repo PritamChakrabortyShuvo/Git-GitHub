@@ -315,3 +315,68 @@ Ensure Git is installed on your computer. You can download it from [Git's offici
 ```bash
   $ git reset
 ```
+## GitHub Commands
+
+**Clone a repository**
+
+```bash
+  $ git clone <repository_url>
+```
+
+**Add a remote repository**
+
+```bash
+  $ git remote add origin <repository_url>
+```
+Connects your local repository to a remote one on GitHub.
+
+**Push changes to Repositories**
+
+```bash
+  $ git push origin <branch_name>
+```
+
+**Pull Changes from GitHub**
+
+```bash
+  $ git pull origin <branch_name>
+```
+**Create a New Repository on GitHub**
+
+```bash
+  $ gh repo create <repository_name>
+```
+Creates a new repository on GitHub using the GitHub CLI.
+
+**Fork a repository :**
++ Navigate to the repository on GitHub.
++ Click the "Fork" button.
+
+Creates a personal copy of someone else's repository on GitHub.
+
+**Create a Pull Request :**
++ Push your changes to a branch on your forked repository.
++ Navigate to the original repository on GitHub.
++ Click "New Pull Request".
+
+Proposes your changes to be merged into the original repository.
+
+**Merge a Pull Request :**
++ Navigate to the pull request on GitHub.
++ Click "Merge pull request".
+
+Incorporates the proposed changes from a pull request into the repository.
+
+**List Issues**
+
+```bash
+  $ gh issue list
+```
+Lists issues in the current repository using the GitHub CLI.
+
+**Create a new Issue**
+
+```bash
+  $ gh issue create
+```
+Creates a new issue in the current repository using the GitHub CLI.
