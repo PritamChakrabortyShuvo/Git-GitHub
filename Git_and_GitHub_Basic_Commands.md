@@ -1,9 +1,9 @@
 
-# 🚀Git & GitHub Basic Cheat Sheet🚀
+# ✨Git & GitHub Basic Commands✨
 
 ![Project Logo](Images/Git%20+%20Githubs.png)
 
-Welcome to the **Git & GitHub Basics Cheat Sheet!** This repository contains a collection of essential Git and GitHub commands to help you manage your code effectively.
+Welcome to the **Git & GitHub Basic Commands!** This repository contains a collection of essential Git and GitHub commands to help you manage your code effectively.
 
 # Why Learn Git Before GitHub?
 
@@ -101,43 +101,43 @@ Ensure Git is installed on your computer. You can download it from [Git's offici
 **Show Current Configuration**
 
 ```bash
-  $ git config --list
+  git config --list
 
 ```
 **Displays the Git configuration settings specific to the current repository**
 
 ```bash
-  $ git config --local --list
+  git config --local --list
 ```
 
 **Displays the Git configuration settings globally for the user**
 
 ```bash
-  $ git config --global --list
+  git config --global --list
 ```
 
 **Displays the Git configuration settings at the system level**
 
 ```bash
-  $ git config --system --list
+  git config --system --list
 ```
 
 **Set global user name**
 
 ```bash
-  $ git config --global user.name "[firstname lastname]"
+  git config --global user.name "[firstname lastname]"
 ```
 **Set global email id**
 
 ```bash
-  $ git config --global user.email "[valid-email]"
+  git config --global user.email "[valid-email]"
 ```
 ## Git Commands
 
 **Initialize an empty repository**
 
 ```bash
-  $ git init
+  git init
   ```
 **Clone an existing repository**
 
@@ -146,205 +146,205 @@ Ensure Git is installed on your computer. You can download it from [Git's offici
   Via SSH :
 
   ```bash
-    $ git clone ssh://user@domain.com/repo.git
+    git clone ssh://user@domain.com/repo.git
   ```
   Via HTTP :
 
 ```bash
-  $ git clone http://domain.com/user/repo.git
+  git clone http://domain.com/user/repo.git
 ```
 
 **Add file**
 
 ```bash
-  $ git add <filename>
+  git add <filename>
 ```
 **Add all current directory files to git**
 
 ```bash
-  $ git add .
+  git add .
 ```
 **Commit all the staged files to git**
 
 ```bash
-  $ git commit -m "<Your_commit_message>"
+  git commit -m "<Your_commit_message>"
 ```
 **Show the status of git repository**
 
 ```bash
-  $ git status
+  git status
 ```
 **Show remote origin URL**
 
 ```bash
-  $ git remote -v
+  git remote -v
 ```
 **Add remote origin URL**
 
 ```bash
-  $ git remote add origin <your_remote_git_url>
+  git remote add origin <your_remote_git_url>
 ```
 **Remove origin URL**
 
 ```bash
-  $ git remote remove origin
+  git remote remove origin
 ```
 **Fetch all the remote branches**
 
 ```bash
-  $ git fetch
+  git fetch
 ```
 **Push your local changes to the remote branch**
 
 ```bash
-  $ git push origin <branch_name>
+  git push origin <branch_name>
 ```
 **Pull your remote changes to the local branch**
 
 ```bash
-  $ git pull origin <branch_name>
+  git pull origin <branch_name>
 ```
 ## Branching
 
 **Create a new branch**
 
 ```bash
-  $ git branch <branch_name>
+  git branch <branch_name>
 ```
 
 **Switches to the specified branch**
 
 ```bash
-  $ git checkout <branch_name>
+  git checkout <branch_name>
 ```
 **Create and Switch to new branch**
 
 ```bash
-  $ git checkout -b [new branch_name][from branch]
+  git checkout -b [new branch_name][from branch]
 ```
 **Pushes the specified branch to the remote repository**
 
 ```bash
-  $ git push origin <branch_name>
+  git push origin <branch_name>
 ```
 **Fetches and merges changes from the remote branch into the current branch**
 ```bash
-  $ git pull origin <branch-name>
+  git pull origin <branch-name>
 ```
 **Delete the branch**
 
 ```bash
-  $ git branch -d <branch_name>
+  git branch -d <branch_name>
 ```
 **Merges the specified branch into the current branch**
 
 ```bash
-  $ git branch <branch_name>
+  git branch <branch_name>
 ```
 ## Commit History
 
 **Shows detailed commit history**
 
 ```bash
-  $ git log
+  git log
 ```
 **Shows commit history in a single line format**
 
 ```bash
-  $ git log --oneline
+  git log --oneline
 ```
 **Shows all commits by a specific user**
 
 ```bash
-  $ git log --author="username"
+  git log --author="username"
 ```
 **Shows changes for a specific file**
 
 ```bash
-  $ git log -p <file>
+  git log -p <file>
 ```
 **Shows commits unique to a remote branch**
 
 ```bash
-  $ git log --oneline <origin/master>..<remote/master> --left-right
+  git log --oneline <origin/master>..<remote/master> --left-right
 ```
 **Shows who changed each line of a file**
 
 ```bash
-  $ git blame <file>
+  git blame <file>
 ```
 **Shows the reference log**
 
 ```bash
-  $ git reflog show
+  git reflog show
 ```
 **Deletes entries from the reference log**
 
 ```bash
-  $ git reflog delete
+  git reflog delete
 ```
 ## Resolve Conflicts
 
 **Lists commits causing conflicts**
 
 ```bash
-  $ git log --merge
+  git log --merge
 ```
 **Shows differences between states of repositories or files**
 
 ```bash
-  $ git diff
+  git diff
 ```
 **Undoes changes to a file or switches branches**
 
 ```bash
-  $ git checkout <file/branch>
+  git checkout <file/branch>
 ```
 **Resets changes to the working directory and staging area**
 
 ```bash
-  $ git reset --mixed
+  git reset --mixed
 ```
 **Exits merge and reverts to pre-merge state**
 
 ```bash
-  $ git merge --abort
+  git merge --abort
 ```
 **Reset conflicted files to original state**
 
 ```bash
-  $ git reset
+  git reset
 ```
 ## GitHub Commands
 
 **Clone a repository**
 
 ```bash
-  $ git clone <repository_url>
+  git clone <repository_url>
 ```
 
 **Add a remote repository**
 
 ```bash
-  $ git remote add origin <repository_url>
+  git remote add origin <repository_url>
 ```
 Connects your local repository to a remote one on GitHub.
 
 **Push changes to Repositories**
 
 ```bash
-  $ git push origin <branch_name>
+  git push origin <branch_name>
 ```
 
 **Pull Changes from GitHub**
 
 ```bash
-  $ git pull origin <branch_name>
+  git pull origin <branch_name>
 ```
 **Create a New Repository on GitHub**
 
 ```bash
-  $ gh repo create <repository_name>
+  gh repo create <repository_name>
 ```
 Creates a new repository on GitHub using the GitHub CLI.
 
@@ -370,13 +370,13 @@ Incorporates the proposed changes from a pull request into the repository.
 **List Issues**
 
 ```bash
-  $ gh issue list
+  gh issue list
 ```
 Lists issues in the current repository using the GitHub CLI.
 
 **Create a new Issue**
 
 ```bash
-  $ gh issue create
+  gh issue create
 ```
 Creates a new issue in the current repository using the GitHub CLI.
